@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyPageActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frag_mypage_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/frag_mypage_profileImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/frag_mypage_btn_editProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_edit_profile"
+            android:layout_gravity="bottom|right"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/frag_mypage_txt_userNickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:fontFamily="@font/nanumsquare_bold"
+        android:text="김지현"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/frag_mypage_frame"
+        app:layout_constraintStart_toEndOf="@+id/frag_mypage_frame"
+        app:layout_constraintTop_toTopOf="@+id/frag_mypage_frame" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumsquare_bold"
+        android:text="님"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/frag_mypage_frame"
+        app:layout_constraintStart_toEndOf="@+id/frag_mypage_txt_userNickname"
+        app:layout_constraintTop_toTopOf="@+id/frag_mypage_frame" />
+
+    <TextView
+        android:id="@+id/frag_mypage_txt_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/notosans_regular"
+        android:text="sksksk"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frag_mypage_frame"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frag_mypage_txt_nickname">
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/notosans_regular"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="이메일 : " />
+
+        <TextView
+            android:id="@+id/frag_mypage_txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/notosans_regular"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="abc@gmail.com" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="8dp"
+        android:text="회원탈퇴"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/frag_mypage_btn_logout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frag_mypage_btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="@font/notosans_regular"
+        android:text="로그아웃"
+        android:textColor="@color/green"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

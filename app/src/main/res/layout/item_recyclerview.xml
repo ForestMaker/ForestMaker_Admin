@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="25dp"
+        android:fontFamily="@font/notosans_regular"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="6sp"
+        android:text="08-03 (일, 오늘)"/>
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingHorizontal="25dp"
+        android:fontFamily="@font/notosans_regular"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="6sp"
+        android:text="13:00"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:paddingHorizontal="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="나무 종류 : "/>
+
+        <TextView
+            android:id="@+id/item_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="소나무"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingHorizontal="25dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="위치 : "/>
+
+        <TextView
+            android:id="@+id/item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="경기도 하남시 위례중앙로"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="식목 날짜 : "/>
+
+        <TextView
+            android:id="@+id/item_plantDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="2021.06.02 (일)"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="상품 : "/>
+
+        <TextView
+            android:id="@+id/item_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="12sp"
+            android:text="식물영양제 1개 / 주사액 1개"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/selector_button"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
