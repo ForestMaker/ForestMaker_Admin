@@ -13,26 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3516d953-dd1a-497f-b2e7-e6f354545e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/data/AdminListResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/network/RequestInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/network/RequestToServer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/SignInActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/data/SignInResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/round_box_green_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/ReceiptData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/data/ReceiptData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/appcompat/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/constraintlayout/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/core/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/espresso/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/ext/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/material/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/org/jetbrains/kotlin/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/network/RequestInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/network/RequestInterface.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +97,7 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -120,7 +107,11 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.forest.forestmaker.admin.data" />
     </key>
+    <key name="android.template.1401512503">
+      <recent name="com.forest.forestmaker.admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
       <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res" />
@@ -209,18 +200,26 @@
       <option name="project" value="LOCAL" />
       <updated>1628951830809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat : Complete to Connect Server">
+      <created>1629091319282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629091319282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ForestMaker First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ForestMaker First Commit" />
+    <MESSAGE value="Feat : Complete to Connect Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat : Complete to Connect Server" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="681" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1629090387986">
+    <state x="681" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1629093764053">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="681" y="280" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1629090387986" />
+    <state x="681" y="280" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1629093764053" />
     <state x="634" y="311" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628949768428">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -233,10 +232,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="484" y="319" key="AndroidCreateResourceFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1628603438843" />
-    <state x="480" y="141" key="CommitChangelistDialog2" timestamp="1628951830782">
+    <state x="480" y="141" key="CommitChangelistDialog2" timestamp="1629091319005">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="480" y="141" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1628951830782" />
+    <state x="480" y="141" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1629091319005" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1629090854927">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -257,10 +256,10 @@
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1629090854926" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1628949727348" />
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1628951837862">
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1629091323446">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1628951837862" />
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1629091323446" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1629085388219">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
