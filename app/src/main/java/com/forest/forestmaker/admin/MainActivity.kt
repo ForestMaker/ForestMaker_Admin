@@ -19,14 +19,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnTree -> {
                 val intent = Intent(this, InfoActivity::class.java)
+                intent.putExtra("type", "나무")
                 startActivity(intent)
             }
             R.id.btnGongbang -> {
                 val intent = Intent(this, InfoActivity::class.java)
+                intent.putExtra("type", "공방")
                 startActivity(intent)
             }
             R.id.btnStore -> {
                 val intent = Intent(this, InfoActivity::class.java)
+                intent.putExtra("type", "상점")
+
                 startActivity(intent)
             }
         }

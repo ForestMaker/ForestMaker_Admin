@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.forest.forestmaker.admin.data.ReceiptData
 
 class InfoAdapter(private val context: Context, private val onClickItem: OnClickItem): RecyclerView.Adapter<InfoAdapter.InfoViewHolder>() {
 
@@ -29,12 +30,13 @@ class InfoAdapter(private val context: Context, private val onClickItem: OnClick
             treeLocation.text = receiptData.location
             plantDate.text = receiptData.plantDate
             product.text = receiptData.product
-            button.isSelected = receiptData.status
+            button.isSelected = receiptData.status != 0
         }
 
         init {
             button.setOnClickListener {
                 onClickItem.onClickButton(adapterPosition)
+                button.isSelected = true
             }
         }
     }
