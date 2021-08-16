@@ -1,6 +1,7 @@
 package com.forest.forestmaker.admin
 
 import android.app.Dialog
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.Window
@@ -102,6 +103,7 @@ class InfoActivity : AppCompatActivity() {
                     itemProduct.text = infoAdapter.datas[position].product
 
                     showDialog()
+
                 }
             }
 
@@ -115,28 +117,27 @@ class InfoActivity : AppCompatActivity() {
 
     // dialog01을 디자인하는 함수
     private fun showDialog() {
-        dialog.show(); // 다이얼로그 띄우기
-
-        /* 이 함수 안에 원하는 디자인과 기능을 구현하면 된다. */
+        dialog.show() // 다이얼로그 띄우기
 
         dialog.findViewById<ImageView>(R.id.item_button).setOnClickListener {
 
             val idJson = JSONObject()
             idJson.put("_id", id)
             val body = JsonParser.parseString(idJson.toString()) as JsonObject
-            Log.e("id", idJson.toString())
 
             RequestToServer.service.requestAdminOk(body).enqueue(object: Callback<String> {
                 override fun onResponse(call: Call<String>, response: Response<String>) {
-                    Log.e("onpres", response.toString())
+                    Log.e("Success", response.toString())
+                    this@InfoActivity.infoAdapter.notifyDataSetChanged()
                 }
 
                 override fun onFailure(call: Call<String>, t: Throwable) {
-                    Log.e("Eoor", t.message.toString())
+                    Log.e("Error", t.message.toString())
                 }
 
             })
             dialog.dismiss()
+
         }
     }
 

@@ -13,20 +13,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3516d953-dd1a-497f-b2e7-e6f354545e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/SignInActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/data/SignInResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/round_box_green_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/network/RequestInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/network/RequestInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/forest/forestmaker/admin/InfoAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_dialog.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/beee/.android/avd/Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/beee/.android/avd/Galaxy_S20_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -89,8 +97,8 @@
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="ForestMakerAdmin.app" />
     <property name="BundleExportedModule" value="ForestMakerAdmin.app" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/beee/.android/avd/Pixel_2_API_30.avd" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-14T14:10:51.812315Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/beee/.android/avd/Galaxy_S20_API_30.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-16T13:07:38.728386Z" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
@@ -207,13 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629091319282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat : Create SignIn and Connect to Server">
+      <created>1629094023192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629094023192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ForestMaker First Commit" />
     <MESSAGE value="Feat : Complete to Connect Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat : Complete to Connect Server" />
+    <MESSAGE value="Feat : Create SignIn and Connect to Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat : Create SignIn and Connect to Server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="681" y="280" key="#com.intellij.ide.util.MemberChooser" timestamp="1629093764053">
@@ -232,34 +248,34 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="484" y="319" key="AndroidCreateResourceFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1628603438843" />
-    <state x="480" y="141" key="CommitChangelistDialog2" timestamp="1629091319005">
+    <state x="480" y="141" key="CommitChangelistDialog2" timestamp="1629094022914">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="480" y="141" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1629091319005" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1629090854927">
+    <state x="480" y="141" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1629094022914" />
+    <state width="0" height="0" key="GridCell.Tab.0.bottom" timestamp="1629119719227">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1629090854927" />
+    <state width="0" height="0" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1629119719227" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.25.1792.1026@0.25.1792.1026" timestamp="1628949727349" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1629090854926">
+    <state width="0" height="0" key="GridCell.Tab.0.center" timestamp="1629119719226">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1629090854926" />
+    <state width="0" height="0" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1629119719226" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.25.1792.1026@0.25.1792.1026" timestamp="1628949727347" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1629090854925">
+    <state width="0" height="0" key="GridCell.Tab.0.left" timestamp="1629119719225">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1629090854925" />
+    <state width="0" height="0" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1629119719225" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.25.1792.1026@0.25.1792.1026" timestamp="1628949727347" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1629090854926">
+    <state width="0" height="0" key="GridCell.Tab.0.right" timestamp="1629119719227">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1629090854926" />
+    <state width="0" height="0" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1629119719227" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1628949727348" />
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1629091323446">
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1629094027858">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1629091323446" />
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1629094027858" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1629085388219">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
